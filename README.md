@@ -26,10 +26,12 @@ Model dilatih menggunakan dataset emosi wajah (seperti FER-2013) yang mencakup 7
    ```bash
    git clone [https://github.com/MiguellMiguell/UAS_ML_Face-Emotion-Recognition-.git](https://github.com/MiguellMiguell/UAS_ML_Face-Emotion-Recognition-.git)
    cd UAS_ML_Face-Emotion-Recognition-
+   ```
    
 2. Install Library yang Dibutuhkan Pastikan Anda sudah menginstal Python, lalu jalankan:
-
+```bash
 pip install -r requirements.txt
+```
 
 💻 Cara Menjalankan Aplikasi
 Pastikan file model (best_cnn.keras atau best_mobilenet.keras) berada di folder yang sama dengan app.py.
